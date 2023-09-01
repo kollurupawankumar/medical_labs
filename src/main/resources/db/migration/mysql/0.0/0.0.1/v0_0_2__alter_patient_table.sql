@@ -1,0 +1,1 @@
+ALTER TABLE patient Modify column op_date datetime not null;
