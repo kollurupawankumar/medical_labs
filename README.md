@@ -102,5 +102,5 @@ After the first run, flyway will detect and run only the new scripts.
 # API Documentation
 
 When server is up and running, you can use swagger to explore the available endpoints and try them out. Find it at:
-http://localhost:8080/wh/swagger-ui.html#/
+http://localhost:8080/ss_mm_service/swagger-ui.html#/
 
