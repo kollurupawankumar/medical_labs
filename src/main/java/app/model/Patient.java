@@ -4,6 +4,8 @@ import lombok.Data;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
 
 @Entity
@@ -38,6 +40,9 @@ public class Patient {
 
     @Column(name = "identity_proof")
     private String identityProof;
+
+    @OneToMany(mappedBy = "patient", cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)
+    List<LabReport> shelves = new ArrayList<>();
 
 }
 
