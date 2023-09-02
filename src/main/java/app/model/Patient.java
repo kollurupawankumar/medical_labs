@@ -33,10 +33,10 @@ public class Patient {
     @Column(name = "op_date")
     private LocalDateTime opDate;
 
-    @Column(name = "father_name)")
+    @Column(name = "father_name")
     private String fatherName;
 
-    @Column(name = "identity_proof)")
+    @Column(name = "identity_proof")
     private String identityProof;
 
 }

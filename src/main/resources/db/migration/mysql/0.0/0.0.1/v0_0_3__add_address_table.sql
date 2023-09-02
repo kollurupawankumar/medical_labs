@@ -1,0 +1,1 @@
+ALTER TABLE patient ADD column address varchar(256);

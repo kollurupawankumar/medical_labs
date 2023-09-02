@@ -17,6 +17,7 @@ public class PatientController {
     public PatientController(PatientService patientService)
     {
         this.patientService = patientService;
+
     }
 
     @GetMapping("{id}")
